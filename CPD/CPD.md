@@ -55,3 +55,13 @@ I did learn the Github process following 9 steps like how to create a repository
 I followed with the instructor the Github process in realtime using my local machine, after that I had to follow this steps by myself.
 
 The process behind creating a repository, clone it to my local machine and creating a new branch.
+
+
+
+21/09/2021  HTML and CSS-introduction to HTML
+   
+I did learn about the HTML structure, elements, attributes and how to anchor elements.
+
+I followed with the instructor creating a new HTML file, cloning the Google home page, adding 2 ordered lists, anchoring tags to items and adding 3 images.
+
+How to add anchor tags to each list item.
