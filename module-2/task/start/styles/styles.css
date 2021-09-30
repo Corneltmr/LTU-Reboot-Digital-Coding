@@ -1,9 +1,4 @@
-a{
-    color: grey;
-    color: #434343;
-    color:rgb(100, 100, 100)
-    font-size: 18px;
-}
+
 
 header {
     border: 1px solid red;
@@ -15,10 +10,33 @@ header {
     padding: 0px;
 }
 
+
 ol {
     border: 1px solid green;
     display: flex;
     justify-content: space-evenly;
     width: 380px;
     
+}
+
+
+a{
+    color: grey;
+    color: #434343;
+    color:rgb(100, 100, 100)
+    font-size: 18px;
+}
+
+
+
+main {
+
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 584px;
+    margin: 120px auto;
+
 }
