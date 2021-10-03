@@ -57,6 +57,7 @@ main input[type="text"] {
     width: 100%;
     margin-top: -4px;
     font-size: 22px;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 div.search-container input[ype="text"]:focus {
