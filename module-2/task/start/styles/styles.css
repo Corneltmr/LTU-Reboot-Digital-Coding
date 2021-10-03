@@ -67,5 +67,6 @@ div.search-container input[ype="text"]:focus {
 .microphone--logo {
     height: 30px;
     width: 30px;
-
+    margin-top: 5px;
 }
+
