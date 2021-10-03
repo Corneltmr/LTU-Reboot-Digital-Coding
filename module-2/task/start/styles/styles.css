@@ -27,6 +27,10 @@ a{
     text-decoration: none;
 }
 
+
+/* Style main section */
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -52,20 +56,22 @@ div.search-container:hover {
     border-color: rgba(223, 225, 229, 0);
 }
 
+/* Select by attribute value */
+
 main input[type="text"] {
     border: none;
     width: 100%;
     margin-top: -4px;
     font-size: 22px;
-    font-family: 'Lexend Deca', sans-serif;
 }
 
-div.search-container input[ype="text"]:focus {
+div.search-container input[type="text"]:focus {
     outline: none
 }
 
 .search--logo,
 .microphone--logo {
+
     height: 30px;
     width: 30px;
     margin-top: 5px;
