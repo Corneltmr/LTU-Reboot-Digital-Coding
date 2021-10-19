@@ -146,4 +146,99 @@ const drinkOrder = ( drink, size ) => {
     }
 }
 
-drinkOrder('apple juice', 'x-large');
+// drinkOrder('apple juice', 'x-large');
+
+const calculator = ( num1, num2, operator ) => {
+
+    switch( operator ) {
+        case '+':
+            console.log( `${num1} + ${num2} = ${num1 + num2}` );
+            break;
+
+        case '-':
+            console.log( `${num1} - ${num2} = ${num1 - num2}` );
+            break;
+
+        case '/':
+            console.log( `${num1} / ${num2} = ${num1 / num2}` );
+            break;
+
+        case '*':
+            console.log( `${num1} * ${num2} = ${num1 * num2}` );
+            break;
+
+        default:
+            console.log(`The ${operator} that you chose is invalid`);
+            break;
+    }
+}
+
+// calculator( 5, 5,'+');
+// calculator( 5, 5,'*');
+// calculator( 5, 5,'/');
+// calculator( 5, 5,'-');
+// calculator( 5, 5,'?');
+
+const product1 = [ productName, price, quantity, inStock, discountAmount ];
+
+// let firstItem = product[0];
+// let lastItem = product[product.length - 1];
+
+// console.log( firstItem, lastItem );
+
+const product2 = {
+    "productName" : 'Apples',
+    price: 1.60,
+    quantity: 6,
+    inStock: true,
+    discountAmount: 0.20,
+};
+
+// console.log ( `Before : ${product2.price}` );
+
+product2.price = 1.25; // Modidying the object
+product2.colour = `Green`; // Adding to the object
+
+// console.log( `Àfter : ${product2.price}` );
+
+// console.dir( product2 ); // Helps console the object
+// console.table( product2 ); // Helps console the object
+
+// console.log( product2.colour );
+
+
+// const productName = product["product name"];
+
+// console.log( product.price ); // Dot notation
+// console.log( product["price"] ); // square bracket notation
+// console.log( product["product name"]); // Square Bracket notation
+
+
+// let colours = ['Green', 'Orange', 'Blue', 'Brown', 'Pink', 'Purple'];
+
+// for ( let index = 0; index < colours.length; index++ ) {
+
+//    console.log( colours[index]);
+
+// }
+
+
+/**
+ * get the results of the 7 times table 
+ * 
+ */
+
+function multiply( num, maxNum ) {
+
+    for( let counter = 1, counter <= maxNum; counter++ ) {
+
+        let multiplyBy = num;
+    
+        let result = counter * multiplyBy;
+
+        console.log( `${counter} * ${num} = ${result}` );
+}
+
+}
+
+multiply( 7, 12 )
