@@ -242,3 +242,100 @@ function multiply( num, maxNum ) {
 }
 
 multiply( 7, 12 )
+
+function totalPriceOfShopping( arr ) {
+    let totalPrice = 0;
+    // console.log( arr[0] );
+
+    for( let index = 0; index < arr.length; index++ ) {
+       totalPrice = totalPrice + ( arr[index].price * arr[index].quantity );
+    }
+    return totalPrice.toFixed(2);
+}
+    
+
+// console.log( totalPriceShopping( shoppingBasket ) );
+
+function discountType( arr, type, discount ) {
+    let totalPrice = 0
+
+    for( let index = 0; index < arr.length; index++ ) {
+
+        if( arr[index].type === type) {
+
+            let discountAmount = discount * ( arr[index].price * arr[index].quantity ) / 100;
+
+            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity - discountAmount );
+        } else {
+
+            totalPrice = totalPrice + ( arr[index].price * arr[index].quantity );
+        }
+        } // end of for loop
+        return totalPrice.toFixed(2);
+}
+
+// console.log( discountType( shoppingBasket, 'vegetables', 20 ) );
+// console.log( discountType( shoppingBasket, 'toiletries', 50 ) );
+// console.log( discountType( shoppingBasket, 'beverages', 10 ) );
+
+// arr, type, discount
+
+// shoppingBasket.forEach( function( item ) {
+//  console.log( item );
+// } );
+
+// shoppingBasket.forEach( item => console.log(item) );
+
+// for( let index = 0; index < shoppingBasket.length; index++ ) {
+//    console.log( shoppingBasket(index));
+// }
+
+// map, filter, reduce - High Level Functions
+
+let arr = [ 1, 2, 3, 4, 5 ];
+
+/** map */
+// const newArray = arr.map( (element) => {
+//    return element + 2;
+// } );
+
+// const newArray = arr.map( function(element) {
+//    return element + 2;
+// });
+
+// const newArray = arr.map( element =>  element + 2 );
+
+// console.log( arr, newArray );
+
+// const moreThanThree = arr.filter( element => element > 3);
+
+// console.log( moreThanThree );
+
+let arr = [ 1, 2, 3, 4, 5 ];
+
+/** Reduce */
+
+// const total = arr.reduce(( acc, curr ) => {
+//    return acc + curr;
+// }, 0 );
+
+// const total = arr.reduce(( acc, curr ) => acc + curr, 0 );
+
+// console.log( total );
+
+// let name = 'Bob';
+
+// Ternarty operator 
+// (name === 'Bob') ? console.log('Hi') : console.log('What is your name?');
+
+// const obj = {
+//    name: 'Cornel',
+//    age: 32,
+//    profession: 'web developer'
+// }
+
+// for in loop for objects
+// for( let key in obj ) {
+//    console.log( `${key} : ${obj[key]}` );
+// }
+
