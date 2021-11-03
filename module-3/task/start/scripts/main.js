@@ -339,3 +339,8 @@ let arr = [ 1, 2, 3, 4, 5 ];
 //    console.log( `${key} : ${obj[key]}` );
 // }
 
+// DOM
+// const heading1 = document.querySelector('h1');
+// const heading4 = document.querySelector('h4');
+
+// const paragraphs = document.querySelectorAll('p');
